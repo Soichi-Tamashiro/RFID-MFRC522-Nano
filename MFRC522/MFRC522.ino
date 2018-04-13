@@ -5,7 +5,7 @@ byte ActualUID[4]; //almacenará código actual de la tarjeta sensada
 //----------------------------------------------------------------
 // Arreglo de 2 dimensiones para almacenar valor de 4 bytes de cada tarjeta asignada a cada usuario
 //----------------------------------------------------------------
-byte Usuario[/*Ingrese aqui la cantidad de usuarios"*/][4] = {
+byte Usuario[/* n */][4] = {  // Reemplace n por la cantidad de usuarios
 //----------------------------------------------------------------
 // CÓDIGOS DE USUARIOS
 //----------------------------------------------------------------
@@ -14,9 +14,9 @@ byte Usuario[/*Ingrese aqui la cantidad de usuarios"*/][4] = {
 //                    .
 //                    .
 //                    .
-  {0xFF, 0xFF, 0xFF, 0xFF}  // Usuario n
+{0xFF, 0xFF, 0xFF, 0xFF}  // Usuario n
 };
-int cant2 =22; // cant2 = cantidad de usuarios +1
+int cant2 =/* n+1 */; // cant2 = cantidad de usuarios +1
 //----------------------------------------------------------------
 // Librerías
 //----------------------------------------------------------------
