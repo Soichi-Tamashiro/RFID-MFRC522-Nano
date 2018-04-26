@@ -68,7 +68,7 @@ void loop(){
 // Función para comparar tarjeta actual con la base de tarjetas en el programa
 //----------------------------------------------------------------
           for (int ini = 0;ini<cant2;ini++){
-            if (compareArray(ActualUID,UsuarioIEEE,ini)){
+            if (compareArray(ActualUID,Usuario,ini)){
             Serial.print("Acceso Autorizado\n");
             digitalWrite(3,LOW);    // Se deja en negativo porque la salida prende en LOW de lo contrario commentar la linea si prende en HIGH
             //digitalWrite(3,HIGH); // Se deja en postivo porque la salida prende en HIGH de lo contrario commentar la linea si prende en LOW
