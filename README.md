@@ -12,10 +12,14 @@ Uso de la placa MFRC522 con arduino Nano
 ![](https://simba-os.readthedocs.io/en/3.0.0/_images/arduino-nano-pinout.png)
 ### Diagrama de conexiones ###
 ![](https://howtomechatronics.com/wp-content/uploads/2017/05/Arduino-and-MFRC522-RFID-Reader-Module-Circuit-Schematic.png)
-## Conexiones de Arduino Nano con modulo Relay ##
+### Conexiones de Arduino Nano con modulo Relay ###
 ![](https://github.com/Soichi-Tamashiro/RFID-MFRC522-Nano/blob/master/RESOURCES/puerta.png)
-## Conexion a stepdown ##
+### Conexion a stepdown ###
   * Input a 12V
   * Output graduar a 5v y conectar al pin de 5v de arduino 
   * Conectar Tierras Unidas
 ![](https://github.com/Soichi-Tamashiro/RFID-MFRC522-Nano/blob/master/RESOURCES/stepdown.jpg)
+## El codigo ##
+  * Definir cuantos usuarios se van a utilizar y obtener sus codigos
+  * El ID: 0xFF 0xFF 0xFF 0xFF de cada tarjeta MIfare de 13.56MHz tiene 4bytes
+  
