@@ -14,3 +14,8 @@ Uso de la placa MFRC522 con arduino Nano
 ![](https://howtomechatronics.com/wp-content/uploads/2017/05/Arduino-and-MFRC522-RFID-Reader-Module-Circuit-Schematic.png)
 ## Conexiones de Arduino Nano con modulo Relay ##
 ![](https://github.com/Soichi-Tamashiro/RFID-MFRC522-Nano/blob/master/RESOURCES/puerta.png)
+## Conexion a stepdown ##
+  * Input a 12V
+  * Output graduar a 5v y conectar al pin de 5v de arduino 
+  * Conectar Tierras Unidas
+![](https://github.com/Soichi-Tamashiro/RFID-MFRC522-Nano/blob/master/RESOURCES/stepdown.jpg)
