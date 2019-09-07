@@ -1,6 +1,6 @@
 # RFID-MFRC522-Nano
 Uso de la placa MFRC522 con arduino Nano
-## Conexiones Arduino Nano con MFRC522(RFID 13.56MHz)##
+## Conexiones Arduino Nano con MFRC522(RFID 13.56MHz) ##
   * RST_PIN  5
   * SS_PIN  10
   * MISO    11
