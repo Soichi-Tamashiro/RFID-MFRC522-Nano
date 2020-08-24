@@ -1,5 +1,6 @@
 # RFID-MFRC522-Nano
 <a href="https://github.com/Soichi-Tamashiro/RFID-MFRC522-Nano/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Soichi-Tamashiro/RFID-MFRC522-Nano?style=plastic"></a>
+<a href="https://github.com/Soichi-Tamashiro/RFID-MFRC522-Nano/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Soichi-Tamashiro/RFID-MFRC522-Nano?style=plastic"></a>
 
 Uso de la placa MFRC522 con arduino Nano
 ## Conexiones Arduino Nano con MFRC522(RFID 13.56MHz) ##
