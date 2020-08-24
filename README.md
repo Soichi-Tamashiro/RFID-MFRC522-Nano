@@ -1,5 +1,6 @@
 # RFID-MFRC522-Nano
-https://img.shields.io/github/issues/Soichi-Tamashiro/RFID-MFRC522-Nano?style=plastic
+<a href="https://github.com/Soichi-Tamashiro/RFID-MFRC522-Nano/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Soichi-Tamashiro/RFID-MFRC522-Nano?style=plastic"></a>
+
 Uso de la placa MFRC522 con arduino Nano
 ## Conexiones Arduino Nano con MFRC522(RFID 13.56MHz) ##
   * RST_PIN  5
